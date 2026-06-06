@@ -1,0 +1,28 @@
+name: amptorch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - setuptools
+  - wheel
+  - pip:
+      - --extra-index-url=https://download.pytorch.org/whl/cu118
+      - torch==2.0.1+cu118
+      - -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+      - torch-scatter==2.1.1
+      - torch-sparse==0.6.17
+      - torch-cluster==1.6.1
+      - torch-geometric==2.3.1
+      - skorch==0.11.0
+      - ase==3.22.*
+      - numpy<2
+      - scipy<2
+      - scikit-learn
+      - cffi
+      - pycparser
+      - h5py
+      - lmdb
+      - pykdtree
+      - tqdm

@@ -1,0 +1,9 @@
+[submodule "amptorch"]
+	path = amptorch
+	url = https://github.com/ulissigroup/amptorch.git
+[submodule "QM-sym-database"]
+	path = QM-sym-database
+	url = https://github.com/XI-Lab/QM-sym-database.git
+[submodule "ferminet"]
+	path = ferminet
+	url = https://github.com/google-deepmind/ferminet.git
