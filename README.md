@@ -1,7 +1,6 @@
 # Data augmented bootstrap (DAB)
 
-Codebase for experiments in the paper ``Data augmented bootstrap: Unifying confidence interval
-construction by approximate invariance".
+Codebase for experiments in the paper ``Data augmented bootstrap: Unifying confidence interval construction by approximate invariance". This repository is licensed under the MIT License, except for third-party components included as Git submodules. Each submodule is licensed under its own license as provided in that submodule.
 
 The repository is organised as follows:
 
